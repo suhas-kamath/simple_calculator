@@ -27,7 +27,7 @@ void main()
          case '/' :
              if(b==0)
             {
-            printf("error");
+            printf("error\n");
             x=1;
             }
              else
@@ -35,12 +35,15 @@ void main()
                 break;
 
          case '*' :
+
              res=a*b;
              break;
-
+         case '1' :
+            return;
         default:
-            printf("invalid operator");
+            printf("invalid operator\n");
             x=1;
+
      }
    if (x=0){
      printf ( "the result is:%f\n",res);
