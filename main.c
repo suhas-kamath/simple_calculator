@@ -49,6 +49,12 @@ main ()
 	  else
 	    res = (int) a % (int) b;
 	  break;
+		      
+	  case '!':
+		  for(int i=1;i<=a;i++)
+			  res=res*i;
+		      break;
+		      
 	default:
 	  printf ("invalid operator");
 
